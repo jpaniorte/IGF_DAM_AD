@@ -140,7 +140,7 @@ hash_id1 Primer commit - versión 1 de archivo.txt
 ```
 > Nota: los valores de `hash_id` serán del estilo: `5e6f7a9`.
 
-Haciendo uso del comando `git checkout <hash>` vuelve al `hash_id1`. La salida debe ser parecida a esta:
+Haciendo uso del comando `git checkout <hash>` vuelve al `hash_id1`. Dedica un tiempo analizando las salidas de `git status` y `git log`. Analiza el contenido de los archivos.La salida debe ser parecida a esta:
 
 ```bash
 Note: switching to '5e6f7a9'.
@@ -155,6 +155,49 @@ Para volver a la rama `main` ejecuta:
 ```
 git checkout main
 ```
+
+### Ejercicio 2.2
+Haz todo lo necesario para que al ejecutar `git log --oneline` sobre la rama `feature/login-errors-handler` aparezca:
+
+```bash
+1152f5d (HEAD -> main) Merge branch 'test'
+87a10dd (test) update index.html
+59da274 udpate
+9eb2eee Cambio de estilo en main
+258c972 Primer commit en main
+```
+Para logarlo, debes comenzar recreando este escenario:
+
+```sh
+59da274 (HEAD -> main) udpate index.html
+9eb2eee Cambio de estilo en main
+258c972 Primer commit en main
+```
+
+Ahora mueve el puntero al hash_id `9eb2eee`. Modifica o crea el fichero index.html y confirma los cambios. Regresa a la rama `main` con `git checkout main`. Probablemente, tengas una salida como esta:
+
+```bash
+Warning: you are leaving 1 commit behind, not connected to
+any of your branches:
+
+  87a10dd update
+
+If you want to keep it by creating a new branch, this may be a good time
+to do so with:
+
+ git branch <new-branch-name> 87a10dd
+
+Switched to branch 'main'
+```
+
+Vamos a crear la rama:
+
+```sh
+git branch test 87a10dd
+```
+
+Y estando sobre main, ejecuta: `git merge test` y `git log --oneline`
+
 
 ## Ejercicios con dificultad avanzada
 
