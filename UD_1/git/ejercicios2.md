@@ -234,7 +234,7 @@ bd729e4 add readme
 
 ### Ejercicio 3.3
 
-Investiga sobre las diferencias entre `git merge` y `git rebase`. Después, analiza estas dos salidas y justifica cual de ellas es un rebase y cual un merge.
+Investiga sobre las diferencias entre `git merge` y `git rebase`. Después, analiza estas dos salidas y justifica cuál de ellas es un rebase y cuál un merge.
 
 ```sh
 # Escenario 1
@@ -252,30 +252,3 @@ i7j8k9l Corrección de errores
 2a3b4c5 (feature-branch) Añadido formulario de contacto
 d1e2f3g Implementación del sistema de autenticación
 ```
-
-### Soluciones ejercicios avanzados
-
-3.1 solución:
-1. 1a6aaf3
-2. bd729e4
-3. Que actualmente, estamos en la rama main.
-4. Que las ramas main y feature-login tienen los mismos cambios confirmados.
-
-
-3.2 solución:
-1. Estamos en la rama feature-fix-login
-2. Que la rama feature-fix-login tiene cambios que la rama main y la rama feature-login no tiene. 
-
-3.3 solución:
-
-Solución:
-El escenario 1 es un git rebase:
-1. No hay commit de merge
-2. Los commits de feature-branch (2a3b4c5 y d1e2f3g) se reescriben como si hubieran sido aplicados después de los commits de main. Esto crea un historial más lineal y limpio.
-3. El rebase básicamente toma los commits de la rama feature-branch y los "reaplica" sobre los commits existentes en main
-
-El escenario 2 es un git merge:
-
-1. Aparece un commit nuevo de merge: a1b2c3d Merge branch 'feature-branch'.
-2. Los commits de feature-branch (como 2a3b4c5) se mantienen en el historial tal cual. No se reescriben ni se reorganizan.
-3. El commit de merge actúa como un punto de unión entre las ramas, lo que significa que puedes ver claramente dónde convergen las dos ramas.
