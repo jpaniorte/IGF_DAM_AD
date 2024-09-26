@@ -217,7 +217,7 @@ bd729e4 Implementación del sistema de autenticación
 3. ¿Qué nos indica HEAD -> main del hash_id 1a6aaf3?
 4. ¿Qué nos indica que HEAD -> main y feature-login estén en el hash_id 1a6aaf3?
 
-# Ejercicio 3.2
+### Ejercicio 3.2
 
 Analiza la situación de la salida obtenida con el comando `git log --oneline` y responde a las preguntas.
 
@@ -232,7 +232,7 @@ bd729e4 add readme
 1. ¿Qué información nos aporta el hash_id 8377a7b?
 2. ¿Qué nos indica que main y feature-login apunten al commit 1a6aaf3 y que feature-fix-login apunte al hash_id 8377a7b?
 
-# Ejercicio 3.3
+### Ejercicio 3.3
 
 Investiga sobre las diferencias entre `git merge` y `git rebase`. Después, analiza estas dos salidas y justifica cual de ellas es un rebase y cual un merge.
 
