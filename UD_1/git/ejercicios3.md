@@ -45,10 +45,9 @@ Abre el repositorio con VSCode y busca el fichero README la forma de contribuir 
 
 ## Ejercicio 1.3
 
-Realiza los siguientes ejercicios: 
+Realiza los siguientes ejercicios: https://aprendeconalf.es/docencia/git/ejercicios/repositorios-remotos/
 
-1. https://aprendeconalf.es/docencia/git/ejercicios/ramas/
-2. https://aprendeconalf.es/docencia/git/ejercicios/repositorios-remotos/
+> Nota: si consideras que deber repasar más lo aprendido sobre ramas, realiza primero este otro: https://aprendeconalf.es/docencia/git/ejercicios/ramas/
 
 ## Ejercicio 1.4
 
