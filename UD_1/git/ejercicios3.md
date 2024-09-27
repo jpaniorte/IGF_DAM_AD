@@ -1,6 +1,6 @@
 # Ejercicios parte 3
 
-> Si no te gusta trabajar con PDF, puedes ver estos ejercicios en la siguiente URL: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/git/ejercicios3.md
+> Si no te gusta trabajar con PDF, puedes ver estos ejercicios en la siguiente URL (incluso hacer fork del proyecto): https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/git/ejercicios3.md
 
 > Si consideras que debes repasar lo aprendido hasta ahora, recomiendo este video de 10min: https://www.youtube.com/watch?v=DuYjcOZw11s
 
