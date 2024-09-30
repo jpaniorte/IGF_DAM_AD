@@ -27,13 +27,13 @@ Comprueba que únicamente tienes una rama main. Vuelve a crear una rama con el n
 
 ```sh
 git checkout feature
-git branch -d feature-index
+git branch -d feature
 git checkout main
 git branch
 ```
 ¿Que ha pasado? 
 
-Finalmente, elimina la rama `feature-index` antes de continuar.
+Finalmente, elimina la rama `feature` antes de continuar.
 
 ### Ejercicio 1.3
 Desde la rama `main`, ejecuta:
