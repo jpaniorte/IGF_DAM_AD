@@ -1,5 +1,7 @@
 # Ejercicios para git - Parte 2
 
+Consulta la versión más actualizada desde aqui: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/git/ejercicios2.md
+
 ## Ejercicios dificultad básica
 
 ### Ejercicio 1.1
@@ -35,6 +37,8 @@ git branch
 
 Finalmente, elimina la rama `feature` antes de continuar.
 
+**Examen: ¿Puedo eliminar la rama feature si me encuentro en la rama feature?:**
+
 ### Ejercicio 1.3
 Desde la rama `main`, ejecuta:
 
@@ -45,6 +49,8 @@ git branch
 ```
 
 ¿En qué rama te encuentras?
+
+**Examen: ¿Qué diferencias hay entre hacer git branch <rama> y git checkout -b <rama>?**
 
 ### Ejercicio 1.4
 
@@ -77,6 +83,12 @@ Fast-forward
  1 file changed, 1 insertion(+)
  create mode 100644 index.html
 ```
+
+**Examen: ¿Qué hace git merge?**
+
+**Examen: Si estoy en la rama feature/add_style y ejecuto git merge main ... ¿Qué sucede?**
+
+**Examen: Si estoy en la rama main y ejecuto git merge feature/add_style ... ¿Qué sucede?**
 
 ### Ejercicio 1.5
 
@@ -127,6 +139,11 @@ git commit -m "Resolviendo conflicto entre main y feature-style"
 
 ¡Enhorabuena, has resuelto el 1º (de muchos) conflictos en git!
 
+
+**Examen: ¿Qué indica la línea "<<<<<<< HEAD" en un conflicto**?
+
+**Examen: ¿Qué indica la línea ">>>>>>> feature-style" en un conflicto?**
+
 ## Ejercicios con dificultad media
 
 ### Ejercicio 2.1
@@ -155,6 +172,9 @@ Para volver a la rama `main` ejecuta:
 ```
 git checkout main
 ```
+
+**Examen: ¿Puedo hacer un git checkout a un commit anterior?**
+
 
 ### Ejercicio 2.2
 Haz todo lo necesario para que al ejecutar `git log --oneline` sobre la rama `feature/login-errors-handler` aparezca:
@@ -198,6 +218,8 @@ git branch test 87a10dd
 
 Y estando sobre main, ejecuta: `git merge test` y `git log --oneline`
 
+**Examen: ¿Puedo hacer un git checkout a un commit anterior y confirmar los cambios realizados en un nuevo commit?**
+
 
 ## Ejercicios con dificultad avanzada
 
@@ -217,6 +239,9 @@ bd729e4 Implementación del sistema de autenticación
 3. ¿Qué nos indica HEAD -> main del hash_id 1a6aaf3?
 4. ¿Qué nos indica que HEAD -> main y feature-login estén en el hash_id 1a6aaf3?
 
+
+**Examen: todas las preguntas anteriores**
+
 ### Ejercicio 3.2
 
 Analiza la situación de la salida obtenida con el comando `git log --oneline` y responde a las preguntas.
@@ -231,6 +256,8 @@ bd729e4 add readme
 
 1. ¿Qué información nos aporta el hash_id 8377a7b?
 2. ¿Qué nos indica que main y feature-login apunten al commit 1a6aaf3 y que feature-fix-login apunte al hash_id 8377a7b?
+
+**Examen: todas las preguntas anteriores**
 
 ### Ejercicio 3.3
 
@@ -252,3 +279,5 @@ i7j8k9l Corrección de errores
 2a3b4c5 (feature-branch) Añadido formulario de contacto
 d1e2f3g Implementación del sistema de autenticación
 ```
+
+**Examen: todas las preguntas anteriores**
