@@ -50,7 +50,7 @@ En particular, presta especial atención a las etiquetas:
 
 ## Ejercicio 2
 
-Vamos a establecer el directorio `/app` para que sea el directorio de trabajo. Primero, comprueba cual es el directorio por defecto actualmente:
+Vamos a establecer el directorio `/app` para que sea el directorio de trabajo. Primero, comprueba cuál es el directorio por defecto actualmente:
 
 ```bash
 docker run -it laravel-example-app:1 bash
