@@ -17,7 +17,7 @@
 
 1. Ejecuta el siguiente comando:
    ```bash
-   docker run -d ubuntu:22.04 -c "while true; do echo 'Hello World'; sleep 2; done"
+   docker run -d ubuntu:22.04 bash -c "while true; do echo 'Hello World'; sleep 2; done"
    ```
 2. Este comando ejecutará un contenedor que cada 2 segundos mostrará "Hello World".
 3. Usa `docker ps` para ver los contenedores en ejecución y verifica que tu contenedor esté en la lista.
