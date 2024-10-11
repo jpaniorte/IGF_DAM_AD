@@ -1,7 +1,5 @@
 # Práctica UD 1
 
-> El siguiente enunciado esta en continua mejora. Antes de realizar la entrega, revisa la última publicación de la misma.
-
 ## Ejercicio 1: Perfil profesional
 Entra en el portal de empleo `mandfred` y muestra todas las ofertas (Activas e inactivas). Puedes acceder directamente a través del siguiente enlace: https://www.getmanfred.com/ofertas-empleo?onlyActive=false&currency=%E2%82%AC
 
@@ -106,12 +104,12 @@ Cuando piden experiencia, quieren saber los proyectos en los que has trabajado. 
 
 Ahora establece unos objetivos medibles y una fecha de finalización. Por ejemplo:
 
-- 10 PR aprobadas en proyectos open source: 3 meses
-- 20 forks de proyectos java interesantes: 1 mes
-- Logar 10 estrellas en mi proyecto personal. 1 año.
-- Lograr 5 forks en mi proyecto personal. 1 año.
-- +100 commits en mi proyecto personal.
-- +3 versiones en mi proyecto personal.
+- 10 PR aprobadas en proyectos open source: Fecha Logro => 3 meses
+- 20 forks de proyectos java interesantes: Fecha Logro => 1 mes
+- Logar 10 estrellas en mi proyecto personal. Fecha Logro => 1 año.
+- Lograr 5 forks en mi proyecto personal. Fecha Logro => 1 año.
+- +100 commits en mi proyecto personal. Fecha Logro => 2 años.
+- +3 versiones en mi proyecto personal. Fecha Logro => 4 meses.
 
 Ahora, pasa esos items al JSON:
 
@@ -281,22 +279,19 @@ Finalmente, has de tener una estructura JSON así:
 ```
 
 ## Ejercicio 2
-
-Realiza el reto de Docker - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/docker/ejercicios1.md#reto
+Realiza el reto de Docker - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
 
 ## Ejercicio 3
-
-Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/docker/ejercicios1.md#reto
+Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
 
 ## Ejercicio 4
-
-Realiza el reto de Docker - Parte 3: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/docker/ejercicios1.md#reto
+Realiza el reto de Docker - Parte 3: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
 
 ## Ejercicio 5
-to be defined
+Realiza el reto Frameworks - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_frameworks/ejercicios1.md#reto
 
 ## Ejercicio 6
-to be defined
+Realiza el reto Frameworks - Parte 2: to be defined
 
 ## Ejercicio 7
-to be defined
+Realiza el reto Frameworks - Parte 3: to be defined
