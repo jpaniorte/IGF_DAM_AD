@@ -186,7 +186,7 @@ RUN echo "export PATH=/root/.composer/vendor/bin:$PATH
 ```
 ejecuta:
 1. `docker build -t laravel-starter:11 .`
-2. `docker run -v $(pwd):/app laravel-starter:11 bash`
+2. `docker run -it -v $(pwd):/app laravel-starter:11 bash`
 3. `laravel new project`
 
 Es posible que la carpeta project que has creado, sea propiedad de `root`. Ejecuta el siguiente comando para solucionarlo:
@@ -215,14 +215,14 @@ y prueba los siguientes comandos:
 
 ```
 ## Levantar la version 1 del proyecto en segundo plano
-docker run -d project-dev:1
+docker run -d -p 8000:8000 project-dev:1
 
 ## Levantar mi proyecto en desarrollo (bind-mount)
-docker run -it -v $(pwd):/app project-dev:1 bash
+docker run -it -p 8000:8000 -v $(pwd):/app project-dev:1 bash
 
 ## Generar la versión 2 de mi proyecto
 docker build -t project-dev:2 .
 
 ## Levantar la version 2 de mi proyecto en segundo plano (bind-mount)
-docker run -d proyect-dev:2
+docker run -d -p 8000:8000 proyect-dev:2
 ```
