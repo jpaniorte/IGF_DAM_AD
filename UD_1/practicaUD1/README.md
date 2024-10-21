@@ -1,5 +1,13 @@
 # Práctica UD 1
 
+2. [Entrega](#entrega)
+1. [Ejercicios](#ejercicios)
+
+# Entrega
+
+Entrega un documento editable (por ejemplo, Word) con todos los ejercicios resueltos.
+
+# Ejercicios
 ## Ejercicio 1: Perfil profesional
 
 El proposito de este ejercicio es elaborar vuestro perfil profesional. Para ello, analizaremos los requisitos de dos ofertas de trabajo y estableceremos una hoja de ruta que nos ayudará a lograrlos.
