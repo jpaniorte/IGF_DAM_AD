@@ -137,5 +137,10 @@ Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blo
 Realiza el reto de Docker - Parte 3: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
 
 ## Ejercicio 5
-Realiza el reto Frameworks - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_frameworks/ejercicios1.md#reto
+Realiza el reto Laravel - Parte 1
 
+## Ejercicio 6
+Realiza el reto Laravel - Parte 2
+
+## Ejercicio 7
+Realiza el reto Persistencia de los datos
