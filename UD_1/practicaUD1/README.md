@@ -133,9 +133,6 @@ Realiza el reto de Docker - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blo
 ## Ejercicio 3
 Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
 
-## Ejercicio 4
-Realiza el reto de Docker - Parte 3: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
-
 ## Ejercicio 5
 Realiza el reto Laravel: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_laravel/ejercicios.md
 
