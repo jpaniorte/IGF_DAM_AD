@@ -6,7 +6,7 @@ Crea un nuevo proyecto Laravel 11.x con el nombre `aprendiendo-laravel`. Puedes 
 
 ### Instrucciones para crear un proyecto Laravel
 
-1. Actualiza el proyecto IGF_DAM_AD (git pull).
+1. Actualiza el proyecto `IGF_DAM_AD` (git pull).
 2. Abre una terminal y situate en la carpeta `IGF_DAM_AD/UD_1/3_laravel/laravel-starter`.
 3. Ejecuta `docker build -t laravel-starter:11 .`
 4. Ejecuta `docker run -it -p 8000:8000 -v $(pwd):/app laravel-starter:11 bash`
@@ -76,7 +76,7 @@ Abre una terminal y ejecuta: `curl http://localhost:8000/api/hello/jose`
 
 ## Ejercicio 5
 
-Durante el ejercicio 3 y 4, hemos creado dos endpoint (`/hello` y `/hello/{name}`) con una lógica muy simple: devolver un msg. Sin embargo, usar controladores en lugar de dejar la lógica directamente en las rutas (routes/api.php) es una buena práctica en Laravel por varias razones:
+Durante el ejercicio 3 y 4, hemos creado dos endpoint (`/hello` y `/hello/{name}`) con una lógica muy simple: devolver un msg. Sin embargo, es una buena práctica usar controladores en lugar de dejar la lógica directamente en las rutas (routes/api.php):
 
 - Principio de "Single Responsibility" (Responsabilidad Única) de la arquitectura SOLID, donde **cada parte del código tiene una única razón para cambiar**. Las rutas solo cambian si se modifican las URLs, y la lógica del controlador cambia si se altera la funcionalidad.
 
@@ -118,10 +118,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HelloController;
 
-Route::get('/user', function (Request $request) {
-    return $request->user();
-})->middleware('auth:sanctum');
-
 Route::get('/hello', [HelloController::class, 'greet']);
 Route::get('/hello/{name}', [HelloController::class, 'greetWithName']);
 ```
@@ -139,7 +135,7 @@ Es altamente recomendable realizar el siguiente curso de [Laravel 11.x desde cer
 
 ## Reto
 
-Crea un repositorio en GitHub con el nombre `laravel-reto`. Haz el repositorio privado y asegurate de que el usuario `jpaniorte` tenga permisos de lectura/escritura. A continuación, rea un proyecto Laravel 11.x con los siguientes parámetros:
+Crea un repositorio en GitHub con el nombre `laravel-reto`. Haz el repositorio privado y asegurate de que el usuario `jpaniorte` tenga permisos de lectura/escritura. A continuación, crea un proyecto Laravel 11.x con los siguientes parámetros:
 - No starter kit
 - PHPUnit
 - SQLite
@@ -200,7 +196,7 @@ root@2b12022e8aa5:/app# php artisan test
   Duration: 0.22s
 ```
 
-Ahora queremos definir un nuevo endpoint que nos permita que el parámetro $name se pase como parte de la cadena de consulta (query string) en lugar de como un segmento de URL. Es decir, hemos implmentado este endpoint `/hello/jose` y queremos este otre endpoint: `/param?name=jose`.
+Ahora queremos definir un nuevo endpoint que nos permita que el parámetro `$name` se pase como parte de la cadena de consulta (query string) en lugar de como un segmento de URL. Es decir, hemos implmentado este endpoint `/hello/jose` y queremos este otre endpoint: `/param/hello?name=jose`.
 
 Para ello, debes añadir el siguiente test al fichero `ApiTest.php`:
 
