@@ -137,4 +137,4 @@ Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blo
 Realiza el reto Laravel: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_laravel/ejercicios.md
 
 ## Ejercicio 5
-Realiza el reto Persistencia de los datos **TBD**
+Realiza el reto Persistencia de los datos: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/4_persistencia_datos/ejercicios.md#reto
