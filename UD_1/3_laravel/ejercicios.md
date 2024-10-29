@@ -6,6 +6,7 @@ Crea un nuevo proyecto Laravel 11.x con el nombre `aprendiendo-laravel`. Puedes 
 
 ### Instrucciones para crear un proyecto Laravel
 
+0. En una terminal, ves a la carpeta `IGF_DAM_AD` (`cd workspace/IGF_DAM_AD`).
 1. Actualiza el proyecto `IGF_DAM_AD` (git pull).
 2. Abre una terminal y situate en la carpeta `IGF_DAM_AD/UD_1/3_laravel/laravel-starter`.
 3. Ejecuta `docker build -t laravel-starter:11 .`
