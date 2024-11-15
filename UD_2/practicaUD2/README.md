@@ -29,14 +29,14 @@ La práctica consiste en implementar un cliente que permita consumir la API REST
     - PUT /api/xml/{filename}
     - DELETE /api/xml/{filename}
 
-El objetivo de esta práctica ~~superar la frustración que os generará~~ es aprender y conocer los requisitos para consumir API REST desde un cliente externo al backend (Headers, CORS, etc), por lo tanto, la tecnología y el diseño de este cliente es **libre**. Por ejemplo, para una aplicación web en VueJS, la implmentación de la ruta `GET /api/hello` podría tener la siguiente apariencia:
+El objetivo de esta práctica ~~es superar la frustración que os generará~~ es aprender y conocer los requisitos para consumir API REST desde un cliente externo al backend (Headers, CORS, etc), por lo tanto, la tecnología y el diseño de este cliente es **libre**. Por ejemplo, para una aplicación web en VueJS, la implementación de la ruta `GET /api/hello` podría tener la siguiente apariencia:
 
 ![](getfiles.png)
 
 ### **Criterios de corrección:**
 
 - [OBLIGATORIO] Se debe estructurar el proyecto de la siguiente manera:
-    - 1 único repositorio para el frontend y el backend. Debe existir un carpeta `frontend` con el código del cliente y una carpeta `backend` con el código del backend.
+    - 1 único repositorio para el frontend y el backend. Debe existir una carpeta `frontend` con el código del cliente y una carpeta `backend` con el código del backend.
 - [OBLIGATORIO] Existe un README.md en la raíz del proyecto con una descripción clara y precisa de los requisitos y los pasos necesarios para levantar un entorno de desarrollo con frontend y backend.
 - 8 puntos = 0,4p por cada ruta implementada.
 - 2 puntos = puedo levantar un entorno de desarrollo local ejecutando:
