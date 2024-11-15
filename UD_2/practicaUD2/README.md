@@ -10,7 +10,7 @@ La práctica consiste en implementar un cliente que permita consumir la API REST
     - POST /api/hello
     - PUT /api/hello/{filename}
     - DELETE /api/hello/{filename}
--  *2.1 JSONe*
+-  *2.1 JSON*
     - GET /api/json
     - GET /api/json/{filename}
     - POST /api/json
