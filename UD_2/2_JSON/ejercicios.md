@@ -9,7 +9,7 @@ Estos ejercicios se realizan sobre el mismo repositorio de los ejercicios "UD 2 
 
 ## Ejercicio 1 (10p)
 
-Copia el fichero `materiales/JsonTest.php` en la carpeta `tests/Feature/JsonTest.php`. y realiza todos los cambios necesarios para pasar todos los tests:
+Copia el fichero `materiales/JsonTest.php` en la carpeta `tests/Feature/JsonTest.php`. Copia el fichero `materiales/JsonController.php` en la carpeta `app/Http/Controllers` y realiza todos los cambios necesarios para pasar todos los tests:
 
 ```bash
 php artisan test --filter JsonTest
