@@ -10,24 +10,18 @@ La práctica consiste en implementar un cliente que permita consumir la API REST
     - POST /api/hello
     - PUT /api/hello/{filename}
     - DELETE /api/hello/{filename}
--  *2.1 JSON*
+-  *2.2 JSON*
     - GET /api/json
     - GET /api/json/{filename}
     - POST /api/json
     - PUT /api/json/{filename}
     - DELETE /api/json/{filename}
--  *2.1 CSV*
+-  *2.3 CSV*
     - GET /api/csv
     - GET /api/csv/{filename}
     - POST /api/csv
     - PUT /api/csv/{filename}
     - DELETE /api/csv/{filename}
--  *2.1 XML*
-    - GET /api/xml
-    - GET /api/xml/{filename}
-    - POST /api/xml
-    - PUT /api/xml/{filename}
-    - DELETE /api/xml/{filename}
 
 El objetivo de esta práctica es aprender y conocer los requisitos para consumir datos de una API REST desde un cliente externo al backend (Headers necesarios, CORS, etc) mediante el protocolo HTTP; por esta razón, la tecnología y el diseño de este cliente es **libre elección**. 
 
