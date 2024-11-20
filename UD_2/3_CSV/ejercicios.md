@@ -2,7 +2,7 @@
 
 ## Preparación del ejercicio
 
-Estos ejercicios se realizan sobre el mismo repositorio de los ejercicios "UD 2 - Clase Storage". Simplemente hay que comprobar antes de comenzar:
+Estos ejercicios se realizan sobre el mismo repositorio de GitHub de los ejercicios "UD 2 - Clase Storage". Simplemente hay que comprobar antes de comenzar:
 
 - Cierra la Pull Request que tengas abierta.
 - Comprueba que tienes todos los tests en verde
