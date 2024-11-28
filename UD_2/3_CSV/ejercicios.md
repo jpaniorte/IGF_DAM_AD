@@ -8,39 +8,11 @@ Estos ejercicios se realizan sobre el mismo repositorio de GitHub de los ejercic
 - Comprueba que tienes todos los tests en verde
 
 
-## Ejercicio 1 (3p)
+## Ejercicio 1 (10p)
 
-1. Crea una batería de test feature con el nombre `CsvTest`. Haz uso del comando `php artisan make:test` para crearlo.
+1. Copia el fichero `materiales/CsvController.php` en la carpeta `app/Http/Controllers` y el fichero `materiales/CsvTest.php` en la carpeta `tests/Feature/CsvTest.php`
 
-2. En el fichero CsvTest.php, implementa los tests para los métodos index, store, update, delete. **No uses ChatGPT**, los tests de estos 4 métodos son idénticos a los vistos en los ficheros `JsonTest.php` y `HelloWorldControllerTest.php`.
-
-3. Añade a ese fichero el siguiente test correspondiente al método show:
-
-```php
-public function test_show_returns_file_content()
-{
-    Storage::fake('local');
-
-    Storage::put('app/existingfile.csv', 'header1,header2\nvalue1,value2');
-
-    $response = $this->get('/api/csv/existingfile.csv');
-
-    $response->assertStatus(200)
-                ->assertJson([
-                    'mensaje' => 'Fichero leído con éxito',
-                    'contenido' => [
-                        ['header1' => 'value1', 'header2' => 'value2']
-                    ]
-                ]);
-}
-```
-
-
-## Ejercicio 2 (7p)
-
-1. Copia el fichero `materiales/CsvController.php` en la carpeta `app/Http/Controllers`.
-
-2. Implementa los métodos index, store, show, update y destroy de acuerdo con la especificación de los comentarios hasta que todos los test sean superados:
+2. Implementa los métodos index, store, show, update y destroy de CsvController.php de acuerdo con la especificación de los comentarios hasta que todos los test sean superados:
 
 ```bash
 php artisan test
