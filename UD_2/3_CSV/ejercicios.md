@@ -10,9 +10,9 @@ Estos ejercicios se realizan sobre el mismo repositorio de GitHub de los ejercic
 
 ## Ejercicio 1 (3p)
 
-1. Crea una batería de test feature con el nombre `CsvTest`. Haz uso del comando `php artisan test` para crearlo.
+1. Crea una batería de test feature con el nombre `CsvTest`. Haz uso del comando `php artisan make:test` para crearlo.
 
-2. Implementa los tests para los métodos index, store, update, delete. **No uses ChatGPT**, los tests de estos 4 métodos son idénticos a los vistos en los ficheros `JsonTest.php` y `HelloWorldControllerTest.php`.
+2. En el fichero CsvTest.php, implementa los tests para los métodos index, store, update, delete. **No uses ChatGPT**, los tests de estos 4 métodos son idénticos a los vistos en los ficheros `JsonTest.php` y `HelloWorldControllerTest.php`.
 
 3. Añade a ese fichero el siguiente test correspondiente al método show:
 
