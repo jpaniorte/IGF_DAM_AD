@@ -128,13 +128,13 @@ Extra:
 ```
 
 ## Ejercicio 2
-Realiza el reto de Docker - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
+Realiza el reto de Docker - Parte 1: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/parte1/ejercicios1.md#reto
 
 ## Ejercicio 3
-Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/ejercicios1.md#reto
+Realiza el reto de Docker - Parte 2: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/2_docker/parte2/ejercicios2.md#reto
 
 ## Ejercicio 4
-Realiza el reto Laravel: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_laravel/ejercicios.md
+Realiza el reto Laravel: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_laravel/ejercicios.md#reto
 
 ## Ejercicio 5
-Realiza el reto Persistencia de los datos: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/4_persistencia_datos/ejercicios.md#reto
+Realiza el reto Persistencia de los datos: https://github.com/jpaniorte/IGF_DAM_AD/blob/main/UD_1/3_laravel/ejercicios.md#reto
