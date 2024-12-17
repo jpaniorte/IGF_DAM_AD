@@ -47,6 +47,7 @@ DB_DATABASE=test1
 DB_USERNAME=root
 DB_PASSWORD=m1_s3cr3t
 ```
+Nota: Si al ejecutar php artisan migrate aparece un error relacionado con el driver, puedes instalarlo con `sudo apt install php8.3-mysql`
 
 Ejecuta los siguientes pasos y contesta a las preguntas:
 
