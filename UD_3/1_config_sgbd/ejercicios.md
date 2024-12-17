@@ -6,7 +6,7 @@ Crea un repositorio en github con el nombre "ud3_ejercicios" y asegurate que el 
 
 ## Ejercicio 2
 
-Clona el repositorio "ud3_ejercicios" y crea un nuevo proyecto Laravel con las opciones "No starter kit" y "PHPUnit". Haz un commit con el msg "Hello World ejercicios UD3" y sube los cambios a github.
+Clona el repositorio "ud3_ejercicios" y crea un nuevo proyecto Laravel 11.x con las opciones "No starter kit" y "PHPUnit". Haz un commit con el msg "Hello World ejercicios UD3" y sube los cambios a github.
 
 ## Ejercicio 3
 
