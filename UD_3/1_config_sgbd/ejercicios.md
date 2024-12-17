@@ -2,7 +2,7 @@
 
 ## Ejercicio 1
 
-Crea un repositorio en github con el nombre "ud3_ejercicios" y asegurate que el usuario `jpaniorte` tenga acceso de lectura.
+Crea un repositorio en github con el nombre "ud3_ejercicios" y asegurate que el usuario `jpaniorte` tenga acceso al código.
 
 ## Ejercicio 2
 
