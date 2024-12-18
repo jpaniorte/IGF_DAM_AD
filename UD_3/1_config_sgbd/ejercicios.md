@@ -194,3 +194,7 @@ Supongamos que trabajamos en una empresa que quiere implementar un sistema para 
                               +-----------------+
 ```
 Crea una base de datos llamada `gestion_notas` e implementa las tablas mediante migraciones de Laravel. Añade algunos datos de prueba mediante `Seeder`.
+
+## Entrega
+
+Entrega el link al repositorio mediante a través del moodle. Resuelve las preguntas en un README.md en la raíz del proyecto.
