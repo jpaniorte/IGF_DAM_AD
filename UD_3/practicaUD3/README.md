@@ -1,8 +1,9 @@
 # Práctica UD3: Base de datos relacionales
+Tiempo de realización 10h (4sesiones)
 
 Debes inventar e implementar un proyecto Laravel original donde demostrar los contenidos adquiridos durante la unidad 3. 
 
-El proyecto debe contener las siguientes secciones desarrolladas en el README.md de la reíz. Al ser un tipo de fichero Markdown, es recomendable leer esta guía para que el estilo y la visualización del texto sea correcta: https://tutorialmarkdown.com/sintaxis.
+El proyecto debe contener las siguientes secciones desarrolladas en el README.md de la raíz. Al ser un tipo de fichero Markdown, es recomendable leer esta guía para que el estilo y la visualización del texto sea correcta: https://tutorialmarkdown.com/sintaxis.
 
 **Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada a la práctica de la UD3 **antes de finalizar el plazo de entrega**. Respecto a los criterios de corrección, **hay que cumplir todos los criterios para lograr dicha calificación**.
 
@@ -19,7 +20,7 @@ Criterio de corrección:
 - Notable: 
     - Al menos el texto contiene 100 palabras.
     - Supuesto realista y original.
-    - Se representa correctamente todas las tablas y relaciones entre ellas. Todos los atributos pueden ser inferidos.
+    - Se representa correctamente todas las tablas y relaciones entre ellas. Todos los atributos pueden ser inferidos con la información aportada.
 - Bien:
     - Entre 50 y 100 palabras.
     - Supuesto poco realista.
@@ -27,8 +28,7 @@ Criterio de corrección:
 - Suspenso:
     - Menos de 50 palabras.
     - Supuesto no realista.
-    - >2 tablas o relaciones no representadas.
-
+    - 2 tablas o relaciones no representadas.
 
 ### 2. Modelo E-R (1,5p)
 
@@ -62,7 +62,7 @@ Criterio de corrección:
 - :muscle: Sobrenatural:
     - Todos los criterios de Notable.
     - Existe en la raíz del proyecto un fichero de exportación de la aplicación [Postman](https://learning.postman.com/docs/getting-started/importing-and-exporting/exporting-data/) con un ejemplo de petición a todos los endpoints publicados.
-    - Existe una validación de los parámetros Request de entrada.
+    - Existe validación sobre los parámetros Request de entrada.
 - Notable:
     - Todas las tablas creadas.
     - Todos lo modelos implementados.
@@ -85,10 +85,9 @@ Criterio de corrección:
     - No existen almenos 5 endpoints en el fichero `api.php` [Recordar configurar las API Routes](https://laravel.com/docs/11.x/routing#api-routes).
     - No todos los verbos del protocolo HTTP (GET, POST, PUT, DELETE) implementados.
 
-
 ### 4. WoW (1p)
 
-El *Way of working* es una descripción detallada de los requisitos tecnolóigocs necesarios para trabajar en el proyecto y una serie de pasos concretos a ejecutar para tener la aplicación "lista" para trabajar.
+El *Way of working* es una descripción detallada de los requisitos tecnológicos necesarios para trabajar en el proyecto y una serie de pasos concretos a ejecutar para tener la aplicación "lista" para trabajar.
 
 - :muscle: Sobrenatural:
     - Todos los criterios de Notable.

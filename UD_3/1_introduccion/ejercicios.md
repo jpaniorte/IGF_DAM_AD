@@ -1,4 +1,5 @@
-# Ejercicios UD3 - Configuración del SGBD
+# Ejercicios UD3.1 - Configuración
+Tiempo de realización 5h (2sesiones)
 
 ## Ejercicio 1
 
