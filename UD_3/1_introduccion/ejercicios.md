@@ -1,15 +1,17 @@
 # Ejercicios UD3.1 - Configuración
 Tiempo de realización 5h (2sesiones)
 
-## Ejercicio 1
+**Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada  **antes de finalizar el plazo de entrega**. Si corresponde, responde a las preguntas en el README.md de la raíz del proyecto.
+
+## Ejercicio 1 (1p)
 
 Crea un repositorio en github con el nombre "ud3_ejercicios" y asegurate que el usuario `jpaniorte` tenga acceso al código.
 
-## Ejercicio 2
+## Ejercicio 2 (1p)
 
 Clona el repositorio "ud3_ejercicios" y crea un nuevo proyecto Laravel 11.x con las opciones "No starter kit" y "PHPUnit". Haz un commit con el msg "Hello World ejercicios UD3" y sube los cambios a github.
 
-## Ejercicio 3
+## Ejercicio 3 (1p)
 
 Crea un fichero Dockerfile en el repositorio "ud3_ejercicios" para la configuración de la Base de datos con Docker del servicio [MariaDB](https://hub.docker.com/_/mariadb), con los siguiente parámetros:
 
@@ -26,7 +28,7 @@ CREATE DATABASE test1;
 SHOW DATABASES;
 ```
 
-## Ejercicio 4
+## Ejercicio 4 (1p)
 
 Revisa los ficheros de la carpeta `database/migrations` y contesta a las siguientes preguntas:
 
@@ -36,7 +38,7 @@ Revisa los ficheros de la carpeta `database/migrations` y contesta a las siguien
 3. ¿Cuantas tablas hay definidas? Indica el nombre de cada tabla
 
 
-## Ejercicio 5
+## Ejercicio 5 (1p)
 
 Modifica el `.env` de tu aplicación Laravel:
 
@@ -64,7 +66,7 @@ SHOW TABLES;
 
 - ¿Cuántas tablas aparecen?
 
-## Ejercicio 6
+## Ejercicio 6 (1p)
 
 Indica qué realiza los siguientes comandos:
 
@@ -76,7 +78,7 @@ Indica qué realiza los siguientes comandos:
 - `php artisan make:migration`:
 - `php artisan migrate --seed`:
 
-## Ejercicio 7
+## Ejercicio 7 (1p)
 
 Crea la base de datos test2 y conecta tu aplicación a dicha base de datos. Emplea el comando `php artisan make:migration my_test_migration` para crear el fichero `database/migrations/<timestamp>_my_test_migration.php`. Abre el fichero y observa que hay dos métodos: `up()` y `down()`
 
@@ -104,11 +106,11 @@ docker exec -it mariadb-server mariadb -u ig -p
 USE test2;
 SHOW TABLES;
 ```
-## Ejercicio 8
+## Ejercicio 8 (1p)
 
 ¿Qué pasos debemos dar si queremos añadir el campo `$table->string('apellido');` a la tabla alumnos del ejercicio anterior?
 
-## Ejercicio 9
+## Ejercicio 9 (1p)
 
 Con los siguientes comandos, podemos obtener el contenido de la tabla alumnos:
 
@@ -178,7 +180,7 @@ Representan las asociaciones entre dos o más entidades. Pueden ser:
 
 - Clave foránea (FK): Es un atributo que referencia a la clave primaria de otra tabla, permitiendo establecer relaciones entre entidades.
 
-## Ejercicio 10
+## Ejercicio 10 (1p)
 
 Supongamos que trabajamos en una empresa que quiere implementar un sistema para gestionar las notas de los alumnos en diferentes asignaturas y os proporciona el siguiente diagrama E-R.
 
@@ -195,7 +197,3 @@ Supongamos que trabajamos en una empresa que quiere implementar un sistema para 
                               +-----------------+
 ```
 Crea una base de datos llamada `gestion_notas` e implementa las tablas mediante migraciones de Laravel. Añade algunos datos de prueba mediante `Seeder`.
-
-## Entrega
-
-Entrega el link al repositorio mediante a través del moodle. Resuelve las preguntas en un README.md en la raíz del proyecto.
