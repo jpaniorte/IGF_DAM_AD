@@ -23,7 +23,7 @@ Crea un fichero Dockerfile en el repositorio "ud3_ejercicios" para la configurac
 De tal manera que los siguientes comandos funcionen:
 
 ```bash
-docker exec -it mariadb-server mariadb -u ig -p
+docker exec -it mariadb-server mariadb -u root -p
 CREATE DATABASE test1;
 SHOW DATABASES;
 ```
