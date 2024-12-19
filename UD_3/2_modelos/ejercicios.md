@@ -70,7 +70,7 @@ GET https://jsonplaceholder.typicode.com/users
 
 ## Ejercicio 5 (2p)
 
-Implementa todas las peticiones implementadas en los ejercicios 2,3 y 4 y comprueba que funcionan correctamente. Exporta el fichero a la raíz del proyecto.
+Implementa todas las peticiones implementadas en los ejercicios 2,3 y 4 en Postman y comprueba que funcionan correctamente. Exporta el fichero a la raíz del proyecto.
 
 ## Ejercicio 6 (2p)
 
