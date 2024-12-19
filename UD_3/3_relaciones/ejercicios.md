@@ -1,4 +1,4 @@
-# Ejercicios UD3.2 - Modelos
+# Ejercicios UD3.3 - Modelos
 Tiempo de realización 5h (2sesiones)
 
 **Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada  **antes de finalizar el plazo de entrega**. Si corresponde, responde a las preguntas en el README.md de la raíz del proyecto.

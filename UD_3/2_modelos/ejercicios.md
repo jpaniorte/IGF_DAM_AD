@@ -13,31 +13,31 @@ A partir de la base de datos `gestion_notas` del ejercicio 10 de los ejercicios 
 
 Implementa las operaciones Crear, Leer, Actualizar y Borrar (CRUD en inglés) mediante los siguientes endpoints. Debes usar una instancia del modelo para crear el registro.
 
-GET /api/alumnos -> devuelve todos los alumnos
-GET /api/alumnos/*id* -> devuelve el alumno *id*
-POST /api/alumnos -> crea un nuevo alumno
-PUT /api/alumnos/*id* -> actualiza el alumno *id*
-DELETE /api/alumnos/*id* -> borra el alumno *id*
+- GET /api/alumnos -> devuelve todos los alumnos
+- GET /api/alumnos/*id* -> devuelve el alumno *id*
+- POST /api/alumnos -> crea un nuevo alumno
+- PUT /api/alumnos/*id* -> actualiza el alumno *id*
+- DELETE /api/alumnos/*id* -> borra el alumno *id*
 
 ## Ejercicio 3 (1.5p)
 
 Implementa las operaciones Crear, Leer, Actualizar y Borrar (CRUD en inglés) mediante los siguientes endpoints. Debes usar el método create() para la creación de un registro.
 
-GET /api/notas -> devuelve todos los notas
-GET /api/notas/*id* -> devuelve el alumno *id*
-POST /api/notas -> crea un nuevo alumno
-PUT /api/notas/*id* -> actualiza el alumno *id*
-DELETE /api/notas/*id* -> borra el alumno *id*
+- GET /api/notas -> devuelve todos los notas
+- GET /api/notas/*id* -> devuelve el alumno *id*
+- POST /api/notas -> crea un nuevo alumno
+- PUT /api/notas/*id* -> actualiza el alumno *id*
+- DELETE /api/notas/*id* -> borra el alumno *id*
 
 ## Ejercicio 4 (1.5p)
 
 Implementa las operaciones Crear, Leer, Actualizar y Borrar (CRUD en inglés) mediante los siguientes endpoints. Debes usar el método create() para la creación de un registro.
 
-GET /api/notas -> devuelve todos los notas
-GET /api/notas/*id* -> devuelve el alumno *id*
-POST /api/notas -> crea un nuevo alumno
-PUT /api/notas/*id* -> actualiza el alumno *id*
-DELETE /api/notas/*id* -> borra el alumno *id*
+- GET /api/notas -> devuelve todos los notas
+- GET /api/notas/*id* -> devuelve el alumno *id*
+- POST /api/notas -> crea un nuevo alumno
+- PUT /api/notas/*id* -> actualiza el alumno *id*
+- DELETE /api/notas/*id* -> borra el alumno *id*
 
 ## Material complementario para el ejercicio 5
 
