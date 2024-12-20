@@ -1,7 +1,7 @@
 # Ejercicios UD3.1 - Configuración
 Tiempo de realización 5h (2sesiones)
 
-**Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada  **antes de finalizar el plazo de entrega**. Si corresponde, responde a las preguntas en el README.md de la raíz del proyecto.
+**Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada  **antes de finalizar el plazo de entrega**. El usuario de Github jpaniorte debe tener permisos para clonar el repositorio. Si corresponde, responde a las preguntas en el README.md de la raíz del proyecto.
 
 ## Ejercicio 1 (1p)
 

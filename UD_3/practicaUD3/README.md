@@ -3,7 +3,7 @@ Tiempo de realización 10h (4sesiones)
 
 ## Entrega
 - **Fecha de entrega hasta el 5/02/2025 23:59**
-- Se debe entregar **únicamente** la URL del repositorio en GitHub en la tarea habilitada en Aula Virtual(Moodle) en la sección "Convocatoria ordinaria"
+- Se debe entregar **únicamente** la URL del repositorio en GitHub en la tarea habilitada en Aula Virtual(Moodle) en la sección "Convocatoria ordinaria". El usuario de Github jpaniorte debe tener permisos para clonar el repositorio.
 - Esta práctica **REQUIERE defensa durante el exámen de la convocatoria del 7 al 14 Febrero 2025**:
     - Si lo deseas, y condicionado a que sea factible, puedes solicitar defender tu práctica antes del exámen. 
     - Debes acudir a defender la práctica en el día y hora que la escuela especifique.
