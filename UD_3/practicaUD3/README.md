@@ -40,7 +40,7 @@ Criterio de corrección:
 - Suspenso:
     - Menos de 50 palabras.
     - Supuesto no realista.
-    - 2 tablas o relaciones no representadas.
+    - >2 tablas o relaciones no representadas.
 
 ### 2. Modelo E-R (1,5p)
 
