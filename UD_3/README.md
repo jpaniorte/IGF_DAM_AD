@@ -8,4 +8,14 @@ En el siguiente repositorio puedes encontrar las 3 carpetas correspondientes a l
 
 Dentro de cada carpeta se puede encontrar el fichero presentación.pdf, con las diapositivas de teoría, y el fichero ejercicios.md, con los ejercicios de evaluación continua.
 
+## Método de evaluación (2º Evaluación)
 
+- 40% Teoría, 2 opciones:
+    1. Continua: Nota media tareas:
+        - 33% Tarea 3.1
+        - 33% Tarea  3.2 
+        - 33% Tatrea 3.3
+    2. Exámen (del 7 al 14 Febrero, el día que indique la escuela).
+- 60% Práctica:
+    - Nota obtenida en la Práctica UD3.  (Entrega 5/2/2025)
+    - Mínimo 5 para promediar
