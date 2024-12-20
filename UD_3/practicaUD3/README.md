@@ -13,11 +13,11 @@ Tiempo de realización 10h (4sesiones)
         - Si supera defensa => nota obtenida según *criterios de corrección*.
         - Si no supera la defensa => No Evaluable.
 
+## Enunciado de la práctica
+
 Debes inventar e implementar un proyecto Laravel original donde demostrar los contenidos adquiridos durante la unidad 3. 
 
 El proyecto debe contener las siguientes secciones desarrolladas en el README.md de la raíz. Al ser un tipo de fichero Markdown, es recomendable leer esta guía para que el estilo y la visualización del texto sea correcta: https://tutorialmarkdown.com/sintaxis.
-
-**Entrega**: Se debe entregar **únicamente** la URL de proyecto de GitHub mediante el Moodle de la escuela (igformacion.online) en la tarea asociada a la práctica de la UD3 **antes de finalizar el plazo de entrega**. Respecto a los criterios de corrección, **hay que cumplir todos los criterios para lograr dicha calificación**.
 
 ### 1. Descripción del problema (1,5p)
 
