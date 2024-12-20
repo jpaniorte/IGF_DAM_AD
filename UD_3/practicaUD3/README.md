@@ -1,6 +1,18 @@
 # Práctica UD3: Base de datos relacionales
 Tiempo de realización 10h (4sesiones)
 
+## Entrega
+- **Fecha de entrega hasta el 5/02/2025 23:59**
+- Se debe entregar **únicamente** la URL del repositorio en GitHub en la tarea habilitada en Aula Virtual(Moodle) en la sección "Convocatoria ordinaria"
+- Esta práctica **REQUIERE defensa durante el exámen de la convocatoria del 7 al 14 Febrero 2025**:
+    - Si lo deseas, y condicionado a que sea factible, puedes solicitar defender tu práctica antes del exámen. 
+    - Debes acudir a defender la práctica en el día y hora que la escuela especifique.
+    - La defensa durará entre 5 y 10 min, durante este tiempo, se deberá contestar a las preguntas formuladas por el profesor. Por ejemplo:
+        - ¿Cómo se implementa una relación 1..N?
+    - La defensa de la práctica no sube ni baja nota, simplemente valida y verifica que el alumno ha realizado la práctica y ha adquirido los conocimientos. Por lo tanto, la puntuación de la práctica será:
+        - Si supera defensa => nota obtenida según *criterios de corrección*.
+        - Si no supera la defensa => No Evaluable.
+
 Debes inventar e implementar un proyecto Laravel original donde demostrar los contenidos adquiridos durante la unidad 3. 
 
 El proyecto debe contener las siguientes secciones desarrolladas en el README.md de la raíz. Al ser un tipo de fichero Markdown, es recomendable leer esta guía para que el estilo y la visualización del texto sea correcta: https://tutorialmarkdown.com/sintaxis.
