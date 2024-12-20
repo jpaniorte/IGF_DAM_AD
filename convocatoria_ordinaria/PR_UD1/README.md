@@ -1,12 +1,11 @@
 # [CONVOCATORIA ORDINARIA] 
 # Práctica UD 1 
 
-2. [Entrega](#entrega)
-1. [Ejercicios](#ejercicios)
-
 # Entrega
 
-Entrega un documento editable (por ejemplo, Word) con todos los ejercicios resueltos.
+- **Fecha de entrega hasta el 18/02/2025 23:59**
+- Entrega un documento PDF con todos los ejercicios resueltos en la tarea habilitada en Aula Virtual(Moodle) en la sección "Convocatoria ordinaria"
+- Esta práctica **no requiere defensa durante el exámen de la convocatoria ordinaria**, es decir, se evalua según se entrega.
 
 # Ejercicios
 ## Ejercicio 1: Perfil profesional

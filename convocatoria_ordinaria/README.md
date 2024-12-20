@@ -21,8 +21,8 @@ En la sección Evaluación Ordinaria del Aula Virtual (Moodle), se han habilitad
 - Práctica UD2: 
     - Se entrega la misma práctica que la anunciada durante el curso.
     - Se debe asistir el día del exámen para defender la práctica:
-        - 5 preguntas orales relativas a tu código que demuestre que el contenido es original y se han adquirido los conocimientos.
+        - Preguntas orales relativas a tu código que demuestre que el contenido es original y se han adquirido los conocimientos.
 - Práctica UD3: 
     - Se entrega la misma práctica que la anunciada durante el curso.
     - Se debe asistir el día del exámen para defender la práctica:
-        - 5 preguntas orales relativas a tu código que demuestre que el contenido es original y se han adquirido los conocimientos.
+        - Preguntas orales relativas a tu código que demuestre que el contenido es original y se han adquirido los conocimientos.
