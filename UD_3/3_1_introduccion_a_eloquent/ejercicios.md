@@ -59,7 +59,7 @@ Ejecuta los siguientes pasos y contesta a las preguntas:
 3. Muestra las tablas:
 
 ```bash
-docker exec -it mariadb-server mariadb -u ig -p
+docker exec -it mariadb-server mariadb -u root -p
 USE test1;
 SHOW TABLES;
 ```
