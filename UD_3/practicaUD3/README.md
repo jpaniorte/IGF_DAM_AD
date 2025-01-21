@@ -53,7 +53,7 @@ Criterio de corrección:
     - Representa una relación ternaria.
     - Representa una relación de agregación.
 - Notable:
-    - Se representan todos los tipos de relaciones vistas en clase.
+    - Se representan todos los tipos de relaciones vistas en clase (Diapositiva 3, presentación 3.3)
     - PK de cada tabla representado.
     - FK representadas con la cardenalidad (0..N, N..N)
 - Bien:  
